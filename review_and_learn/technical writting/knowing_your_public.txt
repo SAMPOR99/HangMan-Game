@@ -1,0 +1,22 @@
+In technical writing is important to know your public target even if your writing is
+quite technical or not, so the question is how can you identify who is your target? 
+and what do they want,the best way to know is to answer some specific questions, 
+questions like who your audience is? who your readers are going to be? which company
+they are working in? what their role in that company are? what are their strengths 
+and weeknesses and so on and so forth.
+
+why do we need such kind of absurb questions? 
+because no matter if our technical writing is perfect in the wrong hands, they will
+not fully understand what are our purpose. there is an excellent definition of the 
+phrase "good documentation": knowledge and abilities that your audience needs
+
+there are in a vague way 4 kinds of types of audience.
+experts: people who know the theory or product inside or outside.
+technicals: those who build, operate, maintain and repair what experts design.
+executives: people who take administrative, economic, or politic decisions
+about the things which experts and technicals are working in.
+non-technicals: people who simple are interested in technical topics despite of
+their understanding or ability is not enough in such topics.
+
+identify the type of audience and adjust the level of you writting will help you
+to a better understanding and enjoyment of your audience. 
