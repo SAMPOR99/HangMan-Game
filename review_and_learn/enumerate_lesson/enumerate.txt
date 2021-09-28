@@ -1,0 +1,9 @@
+The Python enumerate() function adds a counter to an iterable object. The counter lets you keep track of how many 
+iterations have occurred. This counter is stored as a separate variable.
+
+The built-in enumerate() function allows you to loop over a list of items while keeping track of the index value
+in a separate variable.
+
+Python enumerate() is a built-in Python function. The enumerate() function allows you to loop over an iterable
+object and keep track of how many iterations have occurred. Enumerate is particularly
+useful if you have an array of values that you want to run through entirely.
