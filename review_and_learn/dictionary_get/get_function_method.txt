@@ -1,0 +1,23 @@
+The get() method returns the value for the specified key if the key is in the dictionary.
+
+EXAMPLE:
+marks = {'Physics':67, 'Maths':87}
+print(marks.get('Physics'))
+# Output: 67
+
+Syntax of Dictionary get()
+The syntax of get() is:
+dict.get(key[, value]) 
+
+get() method takes maximum of two parameters:
+key - key to be searched in the dictionary
+value (optional) - Value to be returned if the key is not found. The default value is None.
+
+get() method returns:
+the value for the specified key if key is in the dictionary.
+None if the key is not found and value is not specified.
+value if the key is not found and value is specified.
+
+Python get() method Vs dict[key] to Access Elements
+get() method returns a default value if the key is missing.
+However, if the key is not found when you use dict[key], KeyError exception is raised.
