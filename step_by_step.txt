@@ -1,0 +1,6 @@
+1. create the interface. (checked)
+2. choose the secret word by handling DATA. (checked)
+3. duplicate secret word and transform it into an mystery object. (checked)
+4. using the imput to compare if the word is into the secret word. (cheched)
+5. replace the bar in the obj with the correct word. (checked)
+ 
