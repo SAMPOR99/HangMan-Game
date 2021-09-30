@@ -2,15 +2,29 @@ from os import system
 import random
 with open("./DATA.txt","r" ) as f:
     words = [i for i in f]
-mystery = random.choice(words)
-
+#mystery = random.choice(words)
+#mystery = normalize(mystery)
 def create_mystery_obj(word):
     obj = []
     for n,v in enumerate(word):
         if v != "\n":
             obj.append(" _")
     return obj
-    
+
+def normalize(s): # It removes the accents of a string
+    replacements = (
+        ("á", "a"),
+        ("é", "e"),
+        ("í", "i"),
+        ("ó", "o"),
+        ("ú", "u"),
+    )
+    for a, b in replacements:
+        s = s.replace(a, b).replace(a.upper(), b.upper())
+    return s
+
+
+
 def output(mystery_object):
     out = ""
     for n in mystery_object:
@@ -47,9 +61,11 @@ def results(state,mystery):
         print(f"Perdiste la palabra era: {mystery}")
 
 def run():
+    mystery = random.choice(words)
+    mystery = normalize(mystery)
     obj = create_mystery_obj(mystery)
     tries = 30
-    while (not guessed(obj,False)) and tries > 0:
+    while (not guessed(obj,False) and tries > 0):
         interface(mystery, obj, tries)
         letter = input("Input a letter: ")
         user(mystery,obj,letter)
